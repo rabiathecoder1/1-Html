@@ -12,45 +12,47 @@
         }
         #topbar-section{
             width: 1000px;
-            height: 0 px;
-            margin: 10 auto;
+            height: 40 px;
+            margin: 0 auto;
         }
         #logo{
-            margin: 15px;
+            margin: 7px;
             float: left;
         }
     
         .topbar-menu{
             border-left: 1px solid #CCCCCC;
-            height: 10%;
+            height: 100%;
             float: left;
         }
         #signin-logo{
-            margin: 17;
+            margin: 11;
             float: left;
         }
         #signin-text{
             font-weight: bold;
             font-size: 13px;
             position: relative;
-            top: 30px;
+            top: 14px;
             margin-right: 50px;
         }
         .topbar{
             font-weight: bold;
             font-size: 13px;
-            padding: 20px;
+            padding: 10px;
             height: 20px;
-            float: left;
+         
             
         }
         #search-box{
            background-color: antiquewhite;
             
             
+        
         }
-        #more{
-            margin-top: 10px;
+        #more-arrow{
+            position: relative;
+            
         }
         #search-icon{
             position: relative;
@@ -62,14 +64,31 @@
         
         #menubar-container{
             width:100%;
-            height: 80px;
+            height: 70px;
             background-color: #2C2C2C;
-        margin-top: 50px;
+        
         }
         #menubar{
-            width:100px;
-            margin:100px auto;
+            width: 1000px;
+            height: 0 px;
+            margin: 10 auto;
         }
+        h1{
+            margin: 0;
+            color:white;
+            font-weight: normal;
+            padding-top: 10px;
+            font-size: 40px;
+         text-align: right;
+            
+            }
+        #menubar2-container{
+            width:100%;
+            height: 40px;
+            background-color:wheat;
+
+}
+        
     </style>
     </head>
 <body>
@@ -108,7 +127,7 @@
     <div class="topbar-menu topbar">
     
     More
-        <img src="images/more%20arrow%202.png" id="more">
+        <img src="images/more%20arrow%202.png" id="more-arrow">
     </div>
     <div class="topbar-menu topbar">
         <input type="text" value="search" id="search-box">
@@ -119,8 +138,14 @@
     </div>
     <div class="clear">
     </div>
-    <div id="menubar-container"></div>
-    <div id="menubar"></div>
+    <div id="menubar-container">
+    
+    <div id="menubar">
+            <h1 > News</h1>
+        
+        </div>
+   </div>
+    
     
     </body>
 
