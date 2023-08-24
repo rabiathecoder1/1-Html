@@ -2,7 +2,7 @@
     <body>
 hello world
 
-<button onclick="alert('clicked')";
+<button id="btn"> 
 >click me</button>
 
 <p id="text" >This is ome text</p>
@@ -16,6 +16,10 @@ hello world
         
         
         document.getElementById("text").innerHTML="text changed";
+        }
+        
+        document.getElementById("scndbtn").onclick= function () {
+            document.getElementById("secondP").innerHTML= "yes really" +  document.getElementById("secondP").innerHTML + " awesome";
         }
     
     </script>
