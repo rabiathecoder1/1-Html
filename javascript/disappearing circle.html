@@ -24,6 +24,9 @@
         #blue{
             background-color: blue;
         }
+        .circle:hover{
+            cursor: pointer;
+        }
     </style>
     </head>
 <body>
@@ -33,7 +36,25 @@
   <div class="circle" id="yellow"></div>  
      <div class="circle" id="green"></div>  
      <div class="circle" id="blue"></div>  
+    <script type="text/javascript">
     
+    
+    
+    
+    document.getElementById("yellow").onclick =function(){
+        
+        document.getElementById("yellow").style.display="none";
+    }
+    
+    document.getElementById("green").onclick =function(){
+        
+        document.getElementById("green").style.display="none";
+    }
+    document.getElementById("blue").onclick =function(){
+        
+        document.getElementById("blue").style.display="none";
+    }
+    </script>
     
     
     
