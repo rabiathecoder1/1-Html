@@ -11,6 +11,10 @@ hello world
         
          <p id="secondP">javascript is</p>
     <button id="scndbtn">append text</button>
+        <hr/>
+        <input type="text" id="inputvalue">
+        <button id="btn2">click me</button>
+        <p id="text">This is some text</p>
     <script type="text/javascript">
         document.getElementById("btn").onclick =function() {
         
@@ -28,6 +32,12 @@ hello world
         document.getElementById("text").style.backgroundColor="black";
         }
         
+    document.getElementById("btn2").onclick=function(){
+        
+        var textEnter="";
+        textEnter=document.getElementById("inputvalue").innerHTML.value;
+        alert(textEnter);
+    }
     </script>
             </body>
 
